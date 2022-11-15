@@ -5,3 +5,7 @@ for n in range(num):
     total_sum += numbers
 avg = total_sum/num
 print('Average of ', num, ' numbers is :', avg)
+if (avg>=5):
+    print("your numbers are small")
+elif (avg<=100)and(avg>5):
+    print("your numbers are large")
